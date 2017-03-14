@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6789AB">
+    <LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <RadioGroup
+            android:id="@+id/radioCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bar"
+                android:checked="true" />
+
+            <RadioButton
+                android:id="@+id/radioVeg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Veg" />
+            <RadioButton
+                android:id="@+id/radioChinese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ch" />
+            <RadioButton
+                android:id="@+id/radioItalian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="It" />
+            <RadioButton
+                android:id="@+id/radioMusic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Music" />
+            <RadioButton
+                android:id="@+id/radioGas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gas" />
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/search"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Search">
+        </Button>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/city"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:text="City" />
+    <ListView android:id="@+id/venuelist"
+        android:background="#565656"
+        android:layout_width="fill_parent"
+        android:textSize="12sp"
+        android:layout_height="1dip" android:layout_weight="1" />
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <array name="cities">
+    <item>San Francisco</item>
+    <item>Los Angeles</item>
+    <item>Las Vegas</item>
+    <item>Honolulu</item>
+    <item>Seattle</item>
+    <item>Chicago</item>
+     <item>New York City</item>
+    <item>Amsterdam</item>
+     <item>Bangkok</item>
+    <item>Prague</item>
+    <item>Rome</item>
+    <item>London</item>
+    <item>Paris</item>
+    <item>Berlin</item>
+    <item>Tokyo</item>
+    <item>Moscow</item>
+    <item>Geneva</item>
+  </array>
+</resources>
